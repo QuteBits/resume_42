@@ -1,7 +1,9 @@
 YAML to PDF Resume Generator
 ============================
 
-That's some veeery cute python shit here. Enjoy.
+That's some cute python shit here. Screenshots and the story behind this project are here: 
+
+<a href="http://scriptogr.am/qutebits/post/q06-resume-42">http://scriptogr.am/qutebits/post/q06-resume-42</a>
 
 # Install:
 * Install MikTeX or some other shit
