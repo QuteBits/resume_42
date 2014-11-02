@@ -1,7 +1,9 @@
 YAML to PDF Resume Generator
 ============================
 
-That's some cute python shit here. It generates a beautiful resume from yaml data. Here's the output look:
+That's some cute python shit here. It generates a beautiful resume from yaml data. Here's how the output looks:
+
+PDF example: <a href="https://github.com/QuteBits/resume_42/blob/master/resume_example.pdf?raw=true">https://github.com/QuteBits/resume_42/blob/master/resume_example.pdf?raw=true</a> or the screenshot:
 
 ![Alt text](https://raw.github.com/QuteBits/onScriptogram/master/img/06-03.jpg "Resume Look")
 
