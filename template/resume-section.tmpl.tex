@@ -81,7 +81,7 @@
 
 ~{ elif name == "PORTFOLIO" }~
   ~{ for portfolio in contents }~
-    {\bf ~{{ portfolio.name }}~ -- \color{maincolor}~{{ portfolio.url }}~ }
+    {\bf ~{{ portfolio.name }}~ -- \color{maincolor}\url{~{{ portfolio.url }}~} }
     \vspace{1mm}
   ~{ endfor }~
 

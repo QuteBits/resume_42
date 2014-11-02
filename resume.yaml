@@ -1,10 +1,13 @@
 name: Aleksandr Mattal
-email: aleksandr.mattal@gmail.com
+email: qute.bits@gmail.com
 
 #   GENERAL GUIDELINES:
 # ------------------------------------------------------------------------------
+# - if you change the name of any section in 'order' list (example: you rename
+#   "PORTFOLIO" into "STUFF"), remember that you also have to change that name
+#   in the resume-section.tmpl.tex
 # - quote the strings with : or - because these are YAML special chars
-# - careful with / symbol - it fucks up the height of some fonts
+# - avoid / symbol - it fucks up the height of some fonts
 # - if _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
 #   because YAML converts \\ to \
 # - if _ is a part of url - put the whole url into \url{} brackets in TeX cause
