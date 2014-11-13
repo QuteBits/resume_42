@@ -69,20 +69,26 @@ industry:
     dates: 2012--2014
     details:
       - "Helped with the management of a major project,"
-      - "Developed an awesome frontend for an analytics tool (2000+ users as of Oct.2014)"
-  - place: "Christian-Albrechts-University"
+      - "Developed an awesome frontend for an analytics tool (2000+ users as of Oct.2014)."
+#  - place: "Christian-Albrechts-University"
+#    location: Kiel, Germany
+#    title: 'Web Developer'
+#    languages: PHP
+#    dates: 2010
+#    details:
+#      - "Programmed TYPO3 Extensions for the faculty website. Nothing fancy."
+  - place: "Raytrix"
     location: Kiel, Germany
-    title: 'Web Developer'
-    languages: PHP
+    title: 'Internship (Research)'
     dates: 2010
     details:
-      - "Programmed TYPO3 Extensions for the faculty website. Nothing fancy."
+      - "Lazer path optimization using pythagorean-hodograph curves in $R^{4}$."
   - place: "Christian-Albrechts-University"
     location: Kiel, Germany
     title: 'Student Tutor'
     dates: 2009--2010
     details:
-      - "Tutored a lecture in cryptography, corrected students homework."
+      - "Tutored a lecture in cryptography, corrected students homework,"
       - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
   - place: "Christian-Albrechts-University"
     location: Kiel, Germany
@@ -99,7 +105,7 @@ skills:
   - title: Languages of choice
     details: JavaScript, PHP, Python
   - title: Languages
-    details: C++, Java, Haskell, Assembler, Brainfuck
+    details: C++, Java, Haskell, Assembler
   - title: Base Stack
     details: "CMS: Wordpress/Contao, SQL: MySQL/PostgreSQL, VCS: Git"
   - title: Design
