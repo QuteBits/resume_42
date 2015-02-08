@@ -46,30 +46,38 @@ life_education:
 
 research:
   - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
+    link: "\\url{https://github.com/qutebits/final_thesis}"
     field: Game Theory
     supervisor: Prof. Dr. Thomas Wilke, chair for theoretical informatics, University of Kiel.
-    #link: "https://github.com/QuteBits/final \_ thesis"
     grade: "1.0 (best possible: 1.0)"
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
 industry:
+  - place: Murat Diril LTD
+    location: London, UK
+    title: 'Freelancer as a Designer / Web Developer'
+    languages: JavaScript, PHP
+    dates: 2014--Present
+    details:
+      - "Programmed a communication/ordering platform (full stack, LAMP),"
+      - "Developed the main website,"
+      - "Upgraded CI of the company and produced full advertisement package (print)."
   - place: H19 Produktion
     location: Kiel, Germany
     title: 'Lead Designer / Web Developer'
     languages: JavaScript, Python, PHP
-    dates: 2007--Present
+    dates: 2007--2014
     details:
-      - "Programmed an enterprise grade communication/ordering platform (full stack),"
       - "Developed (both frontend and backend) websites/services based on Wordpress/Contao,"
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
-  - place: WortBildTon, New Communication
-    location: Kiel, Germany
-    title: 'Freelancer as a Designer / Jr. Project Manager / Web Developer'
-    languages: JavaScript
-    dates: 2012--2014
-    details:
-      - "Helped with the management of a major project,"
-      - "Developed an awesome frontend for an analytics tool (2000+ users as of Oct.2014)."
+#  - place: WortBildTon, New Communication
+#    location: Kiel, Germany
+#    title: 'Freelancer as a Designer / Jr. Project Manager / Web Developer'
+#    languages: JavaScript
+#    dates: 2012--2014
+#    details:
+#      - "Helped with the management of a major project,"
+#      - "Developed a frontend for an analytics tool (2000+ users as of Oct.2014)."
 #  - place: "Christian-Albrechts-University"
 #    location: Kiel, Germany
 #    title: 'Web Developer'
@@ -82,24 +90,37 @@ industry:
     title: 'Internship (Research)'
     dates: 2010
     details:
-      - "Lazer path optimization using pythagorean-hodograph curves in $R^{4}$."
+      - "Lazer path optimization using pythagorean-hodograph curves in $R^{4}$,"
+      - "Disproved given hypothesis and two of its generalized versions."
+#  - place: "Christian-Albrechts-University"
+#    location: Kiel, Germany
+#    title: 'Student Tutor'
+#    dates: 2009--2010
+#    details:
+#      - "Tutored a lecture in cryptography, corrected students homework,"
+#      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
+#  - place: "Christian-Albrechts-University"
+#    location: Kiel, Germany
+#    title: 'Programmer'
+#    languages: C++, Java
+#    dates: 2006--2009
+#    details:
+#      - "Proposed an algorithm for real-time matching of filmed objects with their 3D-models,"
+#      - "Implemented several real-time pattern recognition and triangulation algorithms,"
+#      - "Made some of the code run 10x faster so to be used in real-time video analysis,"
+#      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing)."
   - place: "Christian-Albrechts-University"
     location: Kiel, Germany
-    title: 'Student Tutor'
-    dates: 2009--2010
-    details:
-      - "Tutored a lecture in cryptography, corrected students homework,"
-      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
-  - place: "Christian-Albrechts-University"
-    location: Kiel, Germany
-    title: 'Programmer'
+    title: 'Scientific Assistant / Student Tutor / Programmer'
     languages: C++, Java
-    dates: 2006--2009
+    dates: 2006--2010
     details:
       - "Proposed an algorithm for real-time matching of filmed objects with their 3D-models,"
       - "Implemented several real-time pattern recognition and triangulation algorithms,"
-      - "Made some of the code run 10x faster so to be used in real-time video analysis,"
-      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing)."
+      - "Optimized image-recognition code so that it could be used in real-time video analysis,"
+      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing),"
+      - "Tutored a lecture in cryptography, corrected students homework,"
+      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
 
 skills:
   - title: Languages of choice
@@ -107,7 +128,7 @@ skills:
   - title: Languages
     details: C++, Java, Haskell, Assembler
   - title: Base Stack
-    details: "CMS: Wordpress/Contao, SQL: MySQL/PostgreSQL, VCS: Git"
+    details: "jQuery + Wordpress/Contao, PHP, MySQL, Git"
   - title: Design
     details: Adobe Creative Suite
 
@@ -126,27 +147,30 @@ portfolios:
     url: "http://scriptogr.am/qutebits/"
 
 projects:
-  - name: My Taste of Ideas (Blog Post)
-    url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
+  - name: YAML to PDF Resume Generator (Python Script)
+    url: "https://github.com/qutebits/resume\\_42/"
     details:
-      - A post from my blog where I enlist 21 personal ideas that appeal to my taste,
-      - The blog itself is hosted on Scriptogr.am. Uses {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Scriptogr.am} for static HTML generation, {\bf Dropbox} for posts sync and {\bf GitHub} as storage for images.
-  - name: VKontakte Playlist Downloader (GitHub Project)
+      - Generates a small and nice PDF Resume out of YAML data,
+      - Main script is written in {\bf Python}, translates {\bf YAML} data into \TeX\hspace{1mm} using {\bf Jinja} templating engine.
+      - This whole Resume is generated with it :)
+  - name: VKontakte Playlist Downloader (Chrome Extension)
     url: "https://github.com/qutebits/vkpd/"
     details:
       - Chrome Extension for batch download of audio tracks from social network VKontakte,
       - "The blog post about it is here -- http://scriptogr.am/qutebits/post/q01-vkontakte-playlist-downloader"
-  - name: YAML to PDF Resume Generator (GitHub Project)
-    url: "https://github.com/qutebits/resume\\_42/"
+  - name: Etsy Thug (Online Tool)
+    url: "https://github.com/qutebits/etsy\\_thug/"
     details:
-      - Generate a small and nice PDF Resume out of YAML data,
-      - Main script is written in {\bf Python}, translates {\bf YAML} data into \TeX\hspace{1mm} using {\bf Jinja} templating engine.
-      - This whole Resume is generated with it :)
-  - name: Diploma Thesis (PDF, in English)
-    url: "https://github.com/qutebits/final\\_thesis/"
+      - Tool for quick creation of Etsy collections.
+  - name: Stackin (UI Concept)
+    url: "https://github.com/qutebits/stackin/"
     details:
-      - Diploma Thesis I've submitted in 2011 for completion of the Computer Science studies,
-      - It all started as an affection to Poker and WSOP glamour - which soon enough led me to questions about the mathematical nature of the game. Enjoy.
+      - Responsive UI concept for sorted value-assigned text data (like Hacker News posts).
+  - name: My Taste of Ideas (Blog Post)
+    url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
+    details:
+      - 21 personal ideas that appeal to my taste,
+      - The blog itself is hosted on Scriptogr.am (static blog generator). I use {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} for posts sync and {\bf GitHub} as storage for images.
 
 languages:
   - language: English
