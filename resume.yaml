@@ -19,17 +19,23 @@ order:
   - [industry, WORK EXPERIENCE]
   - [research, RESEARCH EXPERIENCE]
   - [portfolios, PORTFOLIO]
-  - [projects, PROJECTS]
+  - [personal_projects, PERSONAL PROJECTS]
   - [skills, SKILLS]
   - [honors, ACHIEVEMENTS]
   - [languages, HUMAN LANGUAGES]
 
 life_education:
+  - experience: moved to United Kingdom (London)
+    dates: 2015
+
   - experience: Christian-Albrechts-University
     location: Kiel, Germany
     degree: Diplom in {\bf Computer Science} (with minor in {\bf Mathematics})
     dates: 2004--2012
     grade: "1.95 (best possible: 1.0)"
+
+  - experience: moved to Germany (Kiel)
+    dates: 2004
 
   - experience: High school Tallinna T\~{o}nism\"{a}e Reaalkool (with major in {\bf Mathematics}) 
     location: Tallinn, Estonia
@@ -41,8 +47,8 @@ life_education:
     dates: 1997--2001
     grade: "8.17 (best possible: 10.0)"
 
-  - experience: born in Estonia
-    dates: 1987
+#  - experience: born in Estonia
+#    dates: 1987
 
 research:
   - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
@@ -53,15 +59,26 @@ research:
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
 industry:
-  - place: Murat Diril LTD
+  - place: Murat Diril LTD, etc.
     location: London, UK
     title: 'Freelancer as a Designer / Web Developer'
-    languages: JavaScript, PHP
+    languages: JavaScript, PHP, Python
     dates: 2014--Present
     details:
-      - "Programmed a communication/ordering platform (full stack, LAMP),"
-      - "Developed the main website,"
-      - "Upgraded CI of the company and produced full advertisement package (print)."
+      - "Developed a cloud app (full stack, Node.js/ExpressJS/Jade),"
+      - "Built a CRM from scratch in 8 months (full stack, LAMP),"
+      - "Built an inventory system (full stack, LAMP),"
+      - "Developed an in-browser QR code PDF generator and QR code scanner (JavaScript),"
+      - "Redesigned CI for Murat Diril LTD and produced full advertisement package (print)."
+#  - place: Murat Diril LTD
+#    location: London, UK
+#    title: 'Freelancer as a Designer / Web Developer'
+#    languages: JavaScript, PHP
+#    dates: 2014--Present
+#    details:
+#      - "Programmed a communication/ordering platform (full stack, LAMP),"
+#      - "Developed the main website,"
+#      - "Upgraded CI of the company and produced full advertisement package (print)."
   - place: H19 Produktion
     location: Kiel, Germany
     title: 'Lead Designer / Web Developer'
@@ -69,15 +86,16 @@ industry:
     dates: 2007--2014
     details:
       - "Developed (both frontend and backend) websites/services based on Wordpress/Contao,"
+      - "Built a job board (full stack, LAMP),"
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
-#  - place: WortBildTon, New Communication
-#    location: Kiel, Germany
-#    title: 'Freelancer as a Designer / Jr. Project Manager / Web Developer'
-#    languages: JavaScript
-#    dates: 2012--2014
-#    details:
-#      - "Helped with the management of a major project,"
-#      - "Developed a frontend for an analytics tool (2000+ users as of Oct.2014)."
+  - place: WortBildTon, New Communication
+    location: Kiel, Germany
+    title: 'Freelancer as a Designer / Jr. Project Manager / Web Developer'
+    languages: JavaScript
+    dates: 2012--2014
+    details:
+      - "Helped with the management of a major project,"
+      - "Developed an analytics tool and a UI for its dashboard (2000+ users as of Oct.2014)."
 #  - place: "Christian-Albrechts-University"
 #    location: Kiel, Germany
 #    title: 'Web Developer'
@@ -120,15 +138,20 @@ industry:
       - "Optimized image-recognition code so that it could be used in real-time video analysis,"
       - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing),"
       - "Tutored a lecture in cryptography, corrected students homework,"
-      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
+      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students,"
+      - "Also did some boring stuff: wrote TYPO3 modules."
 
 skills:
   - title: Languages of choice
     details: JavaScript, PHP, Python
-  - title: Languages
-    details: C++, Java, Haskell, Assembler
-  - title: Base Stack
-    details: "jQuery + Wordpress/Contao, PHP, MySQL, Git"
+#  - title: Languages
+#    details: C++, Java, Haskell, Assembler
+  - title: Stack - big stuff
+    details: "js/jQuery + Node.js/ExpressJS/Jade, PHP/Python, MySQL/MongoDB, Git"
+  - title: Stack - usual stuff
+    details: "js/jQuery + Wordpress/Contao, PHP, MySQL"
+  - title: Stack - basic stuff
+    details: "js/jQuery, PHP, MySQL"
   - title: Design
     details: Adobe Creative Suite
 
@@ -146,7 +169,7 @@ portfolios:
   - name: Personal Blog
     url: "http://scriptogr.am/qutebits/"
 
-projects:
+personal_projects:
   - name: YAML to PDF Resume Generator (Python Script)
     url: "https://github.com/qutebits/resume\\_42/"
     details:
@@ -158,6 +181,12 @@ projects:
     details:
       - Chrome Extension for batch download of audio tracks from social network VKontakte,
       - "The blog post about it is here -- http://scriptogr.am/qutebits/post/q01-vkontakte-playlist-downloader"
+  - name: PIP (Web Scraper)
+    url: "http://scriptogr.am/qutebits/post/q08-personal-information-pimp/"
+    details:
+      - Scrapes 80+ pages of different boards/blogs/listings (HN,Reddit,Gumtree,etc.) that I visit daily,
+      - Sorts the scraped data and filters according to several criteria,
+      - Reads the filtered data with a human voice on a single click of a button using a TTS library :)
   - name: Etsy Thug (Online Tool)
     url: "https://github.com/qutebits/etsy\\_thug/"
     details:

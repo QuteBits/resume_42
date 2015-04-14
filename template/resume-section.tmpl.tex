@@ -43,7 +43,7 @@
     \vspace{2mm}
   ~{ endfor }~
   %additional space
-  \vspace{2mm}
+  \vspace{20mm}
 
 ~{ elif name == "RESEARCH EXPERIENCE" }~
   ~{ for research in contents }~
@@ -86,7 +86,7 @@
     \vspace{1mm}
   ~{ endfor }~
 
-~{ elif name == "PROJECTS" }~
+~{ elif name == "PERSONAL PROJECTS" }~
   ~{ for project in contents }~
     {\small\bf ~{{ project.name }}~ -- \color{maincolor}\url{~{{ project.url }}~} }
     \vspace{1mm}
@@ -104,6 +104,7 @@
     \bf\small ~{{ skill.title }}~ & {\small ~{{ skill.details }}~} \\
   ~{ endfor }~
   \end{tabular}
+  \vspace{10mm}
 ~{ else }~
   ~{{ contents }}~
   \bigskip
