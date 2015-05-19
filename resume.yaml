@@ -59,17 +59,17 @@ research:
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
 industry:
-  - place: Murat Diril LTD, etc.
+  - place: Murat Diril, nCube etc.
     location: London, UK
-    title: 'Freelancer as a Designer / Web Developer'
+    title: 'Freelancer as a Designer / Developer'
     languages: JavaScript, PHP, Python
     dates: 2014--Present
     details:
-      - "Developed a cloud app (full stack, Node.js/ExpressJS/Jade),"
-      - "Built a CRM from scratch in 8 months (full stack, LAMP),"
-      - "Built an inventory system (full stack, LAMP),"
+      - "Switched to full stack (Node.js/ExpressJS/Jade, Node.js/AngularJS),"
+      - "Built a CRM and an inventory system in 8 months (full stack, LAMP),"
       - "Developed an in-browser QR code PDF generator and QR code scanner (JavaScript),"
-      - "Redesigned CI for Murat Diril LTD and produced full advertisement package (print)."
+      - "Built and deployed a sitemap with 150 million URLs,"
+      - "Redesigned CI for Murat Diril and produced full advertisement package (print)."
 #  - place: Murat Diril LTD
 #    location: London, UK
 #    title: 'Freelancer as a Designer / Web Developer'
@@ -147,9 +147,9 @@ skills:
 #  - title: Languages
 #    details: C++, Java, Haskell, Assembler
   - title: Stack - big stuff
-    details: "js/jQuery + Node.js/ExpressJS/Jade, PHP/Python, MySQL/MongoDB, Git"
+    details: "Node.js/ExpressJS or AngularJS, PHP/Python, MySQL/MongoDB, Git"
   - title: Stack - usual stuff
-    details: "js/jQuery + Wordpress/Contao, PHP, MySQL"
+    details: "js/jQuery, PHP, MySQL, Wordpress/Contao"
   - title: Stack - basic stuff
     details: "js/jQuery, PHP, MySQL"
   - title: Design
@@ -195,6 +195,18 @@ personal_projects:
     url: "https://github.com/qutebits/stackin/"
     details:
       - Responsive UI concept for sorted value-assigned text data (like Hacker News posts).
+  - name: QR codes PDF generator (JavaScript)
+    url: "https://github.com/QuteBits/qr\\_pdf\\_generator"
+    details:
+      - Really easy to install/use,
+      - Runs purely in the browser (no server needed), 
+      - In-browser QR codes generator which then builds and downloads a PDF with them.
+  - name: QR codes Scanner (JavaScript)
+    url: "https://github.com/QuteBits/qr\\_scanner"
+    details:
+      - Really easy to install/use,
+      - Runs purely in the browser (no server needed), 
+      - HTML5 QR codes scanner which uses cameras on your devices to scan QR codes.
   - name: My Taste of Ideas (Blog Post)
     url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
     details:
