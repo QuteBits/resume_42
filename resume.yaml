@@ -59,17 +59,18 @@ research:
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
 industry:
-  - place: Murat Diril, nCube etc.
+  - place: nCube, Ravelin, Murat Diril etc.
     location: London, UK
-    title: 'Freelancer as a Designer / Developer'
+    title: 'Freelancer as a Developer / Designer'
     languages: JavaScript, PHP, Python
     dates: 2014--Present
     details:
-      - "Switched to full stack (Node.js/ExpressJS/Jade, Node.js/AngularJS),"
+      - "Hybrid app UI for a cool home automation system (AngularJS/Ionic),"
+      - "Switched to full stack (MongoDB/ExpressJS/AngularJS/Node.js + Ionic),"
       - "Built a CRM and an inventory system in 8 months (full stack, LAMP),"
       - "Developed an in-browser QR code PDF generator and QR code scanner (JavaScript),"
-      - "Built and deployed a sitemap with 150 million URLs,"
-      - "Redesigned CI for Murat Diril and produced full advertisement package (print)."
+      - "Built and deployed a sitemap with 150 million URLs (Python),"
+      - "Full redesign of CI for Murat Diril, produced full advertisement package (print)."
 #  - place: Murat Diril LTD
 #    location: London, UK
 #    title: 'Freelancer as a Designer / Web Developer'
@@ -94,8 +95,7 @@ industry:
     languages: JavaScript
     dates: 2012--2014
     details:
-      - "Helped with the management of a major project,"
-      - "Developed an analytics tool and a UI for its dashboard (2000+ users as of Oct.2014)."
+      - "Developed an analytics tool and a UI for a project (2000+ users as of Oct.2014)."
 #  - place: "Christian-Albrechts-University"
 #    location: Kiel, Germany
 #    title: 'Web Developer'
