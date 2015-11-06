@@ -32,3 +32,7 @@ Human explanation: basically you put your data into *resume.yaml* (don't forget 
 
 ### Contact:
 <a href="https://twitter.com/qutebits">@qutebits</a> or qute.bits (gmail)
+
+### License:
+
+This work is distributed under the MIT license (`LICENSE-qutebits.mit`) with portions copyright Ellis Michael from [emichael/resume](https://github.com/emichael/resume) and Brandon Amos from [bamos/cv](https://github.com/bamos/cv). Their portions are also distributed under the MIT license (`LICENSE-emichael.mit` and `LICENSE-bamos.mit`) and include a re-write of `generate.py` and template restructuring.
