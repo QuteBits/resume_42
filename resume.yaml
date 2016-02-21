@@ -20,7 +20,7 @@ order:
   - [research, RESEARCH EXPERIENCE]
   - [portfolios, PORTFOLIO]
   - [personal_projects, PERSONAL PROJECTS]
-  - [skills, SKILLS]
+  - [tools, TOOLS]
   - [honors, ACHIEVEMENTS]
   - [languages, HUMAN LANGUAGES]
 
@@ -59,10 +59,10 @@ research:
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
 industry:
-  - place: nCube, Ravelin, Murat Diril etc.
+  - place: Synthace, Ravelin, nCube, Murat Diril etc.
     location: London, UK
-    title: 'Freelancer as a Developer / Designer'
-    languages: JavaScript, PHP, Python
+    title: 'Contractor Developer / Designer'
+    languages: JavaScript, Python, PHP
     dates: 2014--Present
     details:
       - "Hybrid app UI for a cool home automation system (AngularJS/Ionic),"
@@ -73,7 +73,7 @@ industry:
       - "Full redesign of CI for Murat Diril, produced full advertisement package (print)."
 #  - place: Murat Diril LTD
 #    location: London, UK
-#    title: 'Freelancer as a Designer / Web Developer'
+#    title: 'Contractor Designer / Web Developer'
 #    languages: JavaScript, PHP
 #    dates: 2014--Present
 #    details:
@@ -91,7 +91,7 @@ industry:
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
   - place: WortBildTon, New Communication
     location: Kiel, Germany
-    title: 'Freelancer as a Designer / Jr. Project Manager / Web Developer'
+    title: 'Contractor Designer / Jr. Project Manager / Web Developer'
     languages: JavaScript
     dates: 2012--2014
     details:
@@ -141,17 +141,17 @@ industry:
       - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students,"
       - "Also did some boring stuff: wrote TYPO3 modules."
 
-skills:
+tools:
   - title: Languages of choice
-    details: JavaScript, PHP, Python
+    details: JavaScript, Python, PHP
 #  - title: Languages
 #    details: C++, Java, Haskell, Assembler
   - title: Stack - big stuff
-    details: "Node.js/ExpressJS or AngularJS, PHP/Python, MySQL/MongoDB, Git"
-  - title: Stack - usual stuff
+    details: "Node.js/ExpressJS/AngularJS/React/d3.js, Python/PHP, MySQL/MongoDB, Git"
+  - title: Stack - small stuff
     details: "js/jQuery, PHP, MySQL, Wordpress/Contao"
-  - title: Stack - basic stuff
-    details: "js/jQuery, PHP, MySQL"
+  - title: Teamwork
+    details: "Git, Linux, Slack/Hipchat, Asana/Pivotal Tracker, Dropbox/Evernote/Trello/Google Docs"
   - title: Design
     details: Adobe Creative Suite
 
@@ -166,8 +166,8 @@ portfolios:
     url: "https://github.com/qutebits/"
   - name: Graphical Portfolio
     url: "http://www.coroflot.com/qutepixels/"
-  - name: Personal Blog
-    url: "http://scriptogr.am/qutebits/"
+#  - name: Personal Blog
+#    url: "http://scriptogr.am/qutebits/"
 
 personal_projects:
   - name: YAML to PDF Resume Generator (Python Script)
@@ -180,11 +180,12 @@ personal_projects:
     url: "https://github.com/qutebits/vkpd/"
     details:
       - Chrome Extension for batch download of audio tracks from social network VKontakte,
-      - "The blog post about it is here -- http://scriptogr.am/qutebits/post/q01-vkontakte-playlist-downloader"
+#      - "The blog post about it is here -- http://scriptogr.am/qutebits/post/q01-vkontakte-playlist-downloader"
   - name: PIP (Web Scraper)
-    url: "http://scriptogr.am/qutebits/post/q08-personal-information-pimp/"
+#    url: "http://scriptogr.am/qutebits/post/q08-personal-information-pimp/"
     details:
       - Scrapes 80+ pages of different boards/blogs/listings (HN,Reddit,Gumtree,etc.) that I visit daily,
+      - Can scrape some more advanced pages like meetup.com or Google Maps
       - Sorts the scraped data and filters according to several criteria,
       - Reads the filtered data with a human voice on a single click of a button using a TTS library :)
   - name: Etsy Thug (Online Tool)
@@ -208,10 +209,10 @@ personal_projects:
       - Runs purely in the browser (no server needed), 
       - HTML5 QR codes scanner which uses cameras on your devices to scan QR codes.
   - name: My Taste of Ideas (Blog Post)
-    url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
+#    url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
     details:
       - 21 personal ideas that appeal to my taste,
-      - The blog itself is hosted on Scriptogr.am (static blog generator). I use {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} for posts sync and {\bf GitHub} as storage for images.
+      - Used {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} as storage for posts and {\bf GitHub} as storage for images.
 
 languages:
   - language: English
