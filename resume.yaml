@@ -19,10 +19,10 @@ order:
   - [industry, WORK EXPERIENCE]
   - [research, RESEARCH EXPERIENCE]
   - [portfolios, PORTFOLIO]
-  - [personal_projects, PERSONAL PROJECTS]
   - [tools, TOOLS]
   - [honors, ACHIEVEMENTS]
   - [languages, HUMAN LANGUAGES]
+  - [personal_projects, PERSONAL PROJECTS]
 
 life_education:
   - experience: moved to United Kingdom (London)
@@ -185,7 +185,6 @@ personal_projects:
 #    url: "http://scriptogr.am/qutebits/post/q08-personal-information-pimp/"
     details:
       - Scrapes 80+ pages of different boards/blogs/listings (HN,Reddit,Gumtree,etc.) that I visit daily,
-      - Can scrape some more advanced pages like meetup.com or Google Maps
       - Sorts the scraped data and filters according to several criteria,
       - Reads the filtered data with a human voice on a single click of a button using a TTS library :)
   - name: Etsy Thug (Online Tool)
@@ -199,8 +198,6 @@ personal_projects:
   - name: QR codes PDF generator (JavaScript)
     url: "https://github.com/QuteBits/qr\\_pdf\\_generator"
     details:
-      - Really easy to install/use,
-      - Runs purely in the browser (no server needed), 
       - In-browser QR codes generator which then builds and downloads a PDF with them.
   - name: QR codes Scanner (JavaScript)
     url: "https://github.com/QuteBits/qr\\_scanner"
@@ -213,6 +210,31 @@ personal_projects:
     details:
       - 21 personal ideas that appeal to my taste,
       - Used {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} as storage for posts and {\bf GitHub} as storage for images.
+  - name: Hashtag Adjustor (Instagram Scraper)
+    details:
+      - Scrapes all hashtags from 30 last posts of all the accounts that liked your posts,
+      - Sorts them and shows most used combinations of 1, 2 or 3 hashtags
+  - name: Accounting Jobs Scraper
+    details:
+      - Scrapes for companies in 50 industries by location and generates a CSV with their contact emails,
+      - Scans 5 largest UK job sites and generates a CSV and a histogram of all the salaries
+  - name: Google Maps and Meetup.com Scraper
+    details:
+      - Scrapes Meetup.com Calendar for the current day,
+      - Scrapes Google Maps Search results by simulating human behavior in the browser and analyzing screenshots
+  - name: Executing python code on a smartphone using NFC chips and code hosted on a public fiddle 
+    details:
+      - Root your smartphone and install a command-line tool or a Linux distro,
+      - Write python code and save it as text on a public feedle (use hackmd.io or similar)
+      - save a small bash script that downloads the code from hackmd.io and executes it on an NFC chip,
+  - name: Browser CCTV Streaming (JavaScript/PHP)
+    details:
+      - Allows you to stream any number smartphone/laptop cameras (no install needed),
+      - Open page A in your smartphone/laptop browser and allow access to the device camera,
+      - page B shows all current streams from page A
+  - name: Automatic Diary (JavaScript/PHP)
+    details:
+      - Generates a static diary that shows a diary entry and all photos with a similar date from a folder
 
 languages:
   - language: English
