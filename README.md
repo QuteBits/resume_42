@@ -13,14 +13,11 @@ and something for nerds (the story behind this project): <a href="http://scripto
 
 This project is inspired by the work of Brandon Amos: <a href="https://github.com/bamos/cv">https://github.com/bamos/cv</a>
 
-### Pre-Install:
-* Install Python (I tested it on <a href="https://www.python.org/download/releases/2.7.3/">Python 2.7.3</a>)
-* Install <a href="http://miktex.org/">MikTeX</a> or any other LaTeX processor
-* Install <a href="https://github.com/mitsuhiko/jinja2">Jinja2</a> package and install it (other packages are assumed to be there or to be installed on-the-fly by MikTeX during compiling for the first time)
-
 ### Install:
+* Install Python and <a href="http://miktex.org/">MikTeX</a> (or any other LaTeX processor)
 * Download this whole project from GitHub, unzip to some folder "x"
 * `pip install pyyaml`
+* `pip install -U Jinja2` - install <a href="https://github.com/mitsuhiko/jinja2">Jinja2</a> (other packages are assumed to be there or to be installed on-the-fly by MikTeX during compiling for the first time)
 
 ### Use:
 
