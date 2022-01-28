@@ -20,9 +20,11 @@ This project is inspired by the work of Brandon Amos: <a href="https://github.co
 
 ### Install:
 * Download this whole project from GitHub, unzip to some folder "x"
+* `pip install pyyaml`
 
 ### Use:
 
+_Note: Currently TeX doesn't render `#` symbols from your `.yaml` (so instead of writing something like `C#` write `CSharp`)_
 * python resume_tex.py | cd result | pdflatex resume.tex | pdflatex resume.tex | cd ..
 
 Human explanation: basically you put your data into *resume.yaml* (don't forget to read guidelines in the header), then convert it to TeX and compile TeX twice (you need it so that the page numbering would be correct. TeX doesn't know how many pages you compile during the first run). The conversion to TeX comes in 2 stages:
