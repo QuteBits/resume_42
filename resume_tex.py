@@ -11,7 +11,7 @@ import sys
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
-yaml_contents = yaml.load(open("resume.yaml", 'r')) #read data
+yaml_contents = yaml.safe_load(open("resume.yaml", 'r')) #read data
 
 env = Environment(loader=FileSystemLoader("template"),
   block_start_string='~{',block_end_string='}~',
