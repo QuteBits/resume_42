@@ -5,7 +5,7 @@ That's some cute python shit here. It generates a beautiful resume from yaml dat
 
 PDF example: <a href="https://github.com/QuteBits/resume_42/blob/master/resume_example.pdf?raw=true">https://github.com/QuteBits/resume_42/blob/master/resume_example.pdf?raw=true</a> or the screenshot:
 
-![Alt text](https://raw.github.com/QuteBits/onScriptogram/master/img/06-03.jpg "Resume Look")
+![](https://raw.github.com/QuteBits/onScriptogram/master/img/06-03.jpg "Resume Look")
 
 and something for nerds (the story behind this project): <a href="http://scriptogr.am/qutebits/post/q06-resume-42">http://scriptogr.am/qutebits/post/q06-resume-42</a>
 
